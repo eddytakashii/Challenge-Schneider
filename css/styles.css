@@ -1,0 +1,32 @@
+#container-principal{
+    background-image: url(../img/main\ background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main{
+    margin: 20px;
+    padding: 20px;
+}
+
+h1{
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: green;
+    font-size: 45px;
+
+}
+
+.card{
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    color: white;
+    background-color: rgba(8, 151, 8, 0.719);
+    text-align: center;
+    justify-content: center;
+}
+
