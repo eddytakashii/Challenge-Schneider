@@ -9,13 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles1.css">
+    <link rel="stylesheet" href="../css/styles2.css">
 </head>
 <body>
-  <div id="container-principal">
+<div id="container-principal">
+
+  <!--Menu-->
+  <iframe src="menu.html" frameborder="0" style="width: 100%;"></iframe>
+  <!--Menu-->
 
   <!--Título Gamificação Banho-->
-    <h3>Banho</h3>
+  <h3>Banho</h3>
   <!--Título Gamificação Banho-->
   
   <!--Parágrafo e Gamificação Banho-->
@@ -23,8 +27,6 @@
   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis saepe sequi provident quia enim molestiae.</p>
   <div id="banho">Clique Aqui </div>
   </div>
-  
-  
   <!--Parágrafo e Gamificação Banho-->
 
   <!--Tabela Banho-->
@@ -45,10 +47,22 @@
     
     
     <br><br>
-
-    
   <!--Tabela Banho-->
 
+  
+  <!--Titulo Luz-->
+  <h3 style="color: darkslategray;">Luz</h3>
+  <!--Titulo Luz-->
+
+  <!--Gamificação Luz-->
+  <div id="container-luz">
+    <label for="valor">Digite o valor de gasto mensal de luz:</label>
+    <input type="number" id="valor" placeholder="Digite o gasto mensal em Killowatts(Kwh)">
+    <button type="button" class="btn btn-outline-warning" id="calcular" onclick="calcular()">Calcular</button>
+    <label for="valor" id="resposta">Aqui fica sua resposta</label>
+  </div>
+  <br><br>
+  <!--Gamificação Luz-->
 
   <!--Titulo Economia pro seu bolso-->
   <h3 style="color: gold;">Economizando seu bolso</h3>
@@ -65,9 +79,7 @@
     <label for="custo" id="result"></label>
   </div>
   <!--Gamificação Economia para o seu bolso conta de Luz-->
-
-
 </div>
-    <script src="../js/pagina1.js"></script>
+    <script src="../js/gamificacao.js"></script>
 </body>
 </html>
