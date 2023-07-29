@@ -1,23 +1,28 @@
-/*Gamificação Chuveiro*/
+/*Gamificação Banho*/
 var banho = document.getElementById('banho');
 var cont = 1;
 var litros = 10;
 
 banho.addEventListener('mouseenter',entrou);
-banho.addEventListener('click',clicou)
+banho.addEventListener('mouseout',saiu);
+banho.addEventListener('click',clicou);
 
 
 function entrou(){
-  banho.innerHTML = 'Cada clique = 1 minuto no chuveiro!'
+  banho.innerHTML = '1 clique = 1 minuto no chuveiro!'
+}
+
+function saiu(){
+  banho.innerHTML = 'Clique aqui'
 }
 
 function clicou(){
   banho.innerHTML = `${cont}min = ${litros}litros`
   cont++
-  litros = 10*cont
+  litros = 9*cont
 }
 
-/*Gamificação Chuveiro*/
+/*Gamificação Banho*/
 
 /*Gamificação Luz*/
 function calcular(){

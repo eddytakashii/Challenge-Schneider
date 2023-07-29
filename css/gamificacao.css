@@ -1,0 +1,115 @@
+#container-principal{
+    background-image: url(../img/main\ background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Estilização Banho*/
+
+.paragrafo-banho{
+    background-color: rgba(8, 151, 8, 0.719);
+    justify-content: center;
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#banho{
+    display: flex;
+    text-align: center;
+    align-items: center center;
+    width: 200px;
+    height: 100px;
+    border: 3px solid rgb(111, 17, 154);
+    border-radius: 10px;
+    background-color: hsl(241, 89%, 33%);
+    font-size: 20px;
+    color:#fff;
+    font-weight: 600;
+    margin: auto;
+    padding: 11px;
+}
+
+.container{
+    margin-top: 10px;
+    background-color: rgba(8, 151, 8, 0.719);
+    border: 2px solid blue;
+    color: #fff;
+
+}
+
+/*Estilização Banho*/
+
+/*Estilização Luz*/
+h3{
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(11, 148, 155);
+    font-size: 35px; 
+}
+
+#container-luz{
+    background-color:rgba(47, 79, 79, 0.632);
+    margin: 0 20px;
+    padding: 35px;
+    height: 250px;
+    color: white;
+    text-align: center;
+    justify-content: center; 
+    border: solid 2px green;
+    border-radius: 16px;
+    font-size: 18px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#valor{
+    margin-top: 20px;
+    margin-bottom: 8px;
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+#calcular{
+    height: 50px;
+    width: 130px;
+}
+
+/*Estilização Luz*/
+
+/*Estilização Economizando seu bolso*/
+#paragrafo-economia{
+    background-color: rgba(255, 217, 0, 0.728);
+    color: #fff;
+    margin: 0 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+}
+
+/*Estilização Economizando seu bolso*/
+#custo{
+    margin-top: 20px;
+    margin-bottom: 8px;
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+#botao{
+    height: 50px;
+    width: 130px;
+}
+/*Estilização Economizando seu bolso*/
+
+
