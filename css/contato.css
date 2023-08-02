@@ -1,0 +1,117 @@
+#container-principal{
+    background-image: url(../img/main\ background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#formulario{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nameComplete{
+width: 500px;
+height: 40px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+#cellnumber{
+width: 500px;
+height: 40px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+#email{
+ width: 500px;
+ height: 40px;
+ margin-top: 10px;
+margin-bottom: 20px;
+}
+
+#resposta{
+    margin-top: 20px;
+    height: 300px;
+    width: 700px;
+}
+
+p{
+    text-align: left;
+    justify-content: left;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-left: 30px;
+}
+
+/*Estilização Menu*/
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgb(15, 180, 51);
+    box-shadow: 0px 3px 10px rgb(25, 186, 189);
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 6rem;
+}
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+/*Estilização Menu*/
+
+/*Estilizaçãp Formulario*/
+
+/*Estilizaçãp Formulario*/
