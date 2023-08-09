@@ -20,16 +20,6 @@ h1{
 
 }
 
-.card{
-    margin: 20px;
-    padding: 20px;
-    height: 300px;
-    color: white;
-    background-color: rgba(8, 151, 8, 0.719);
-    text-align: center;
-    justify-content: center;
-}
-
 /*Estilização Menu*/
 *{
     font-family: 'Poppins', sans-serif;
