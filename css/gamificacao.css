@@ -4,6 +4,16 @@
     background-repeat: no-repeat;
 }
 
+h1{
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: green;
+    font-size: 45px;
+
+}
 /*Estilização Menu*/
 *{
     font-family: 'Poppins', sans-serif;

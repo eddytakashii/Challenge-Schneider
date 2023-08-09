@@ -74,3 +74,38 @@ header{
 
 /*Estilização Menu*/
 
+/*Estilização Cards Horizontal*/
+.cardh{
+    margin: 60px;
+    padding: 20px;
+    height: 300px;
+    color: white;
+    background-color: rgba(8, 151, 8, 0.719);
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-image{
+    border-radius: 5px;
+    max-height: 85%;
+}
+
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: gold;
+    font-weight: 400;
+}
+
+.card-text{
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.btn{
+    margin-top: 25px;
+}

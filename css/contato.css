@@ -5,12 +5,13 @@
 }
 
 h1{
+    padding: 20px;
+    margin: 30px;
     text-align: center;
     justify-content: center;
-    margin: auto;
-    padding: 10px;
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: green;
+    font-size: 45px;
 }
 
 h2{
