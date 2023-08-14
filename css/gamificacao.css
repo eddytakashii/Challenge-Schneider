@@ -201,4 +201,20 @@ label{
 }
 /*Estilização Economizando seu bolso*/
 
+/*Barra horizontal*/
+.barra-horizontal{
+    background-color:rgba(8, 151, 8, 0.719);
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+}
 
+.barra-horizontal p{
+    font-size: 20px;
+    color:#fff;
+    font-family: 'Poppins';
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+/*Barra horizontal*/

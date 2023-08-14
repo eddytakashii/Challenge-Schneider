@@ -70,6 +70,22 @@ p{
     margin-left: 30px;
 }
 
+label{
+color: gold;
+font-weight: 600;
+}
+
+ input{
+    background-color: lightgrey;
+    border-radius: 5px;
+ }
+
+ button{
+    width: 150px;
+    height: 70px;
+    margin-top: 20px;
+ }
+
 /*Estilização Menu*/
 *{
     font-family: 'Poppins', sans-serif;
@@ -112,8 +128,29 @@ header{
     font-weight: 400;
 }
 
-/*Estilização Menu*/
 
-/*Estilizaçãp Formulario*/
+/*Barra horizontal*/
+.barra-horizontal{
+    background-color:rgba(8, 151, 8, 0.719);
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
 
-/*Estilizaçãp Formulario*/
+.barra-horizontal p{
+    font-size: 20px;
+    color:#fff;
+    font-family: 'Poppins';
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+/*Barra horizontal*/
+
+#formulario-principal{
+    background-color: rgba(8, 151, 8, 0.719);
+    color: #fff;
+    margin: 40px;
+    border-radius: 16px;
+}
