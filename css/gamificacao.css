@@ -12,7 +12,7 @@ h1{
     font-family: 'Raleway', sans-serif;
     color: green;
     font-size: 45px;
-
+    font-weight: 900;
 }
 /*Estilização Menu*/
 *{
@@ -61,7 +61,7 @@ header{
 /*Estilização Banho*/
 
 .paragrafo-banho{
-    background-color: rgba(8, 151, 8, 0.719);
+    background-color:rgba(8, 151, 8, 0.719);
     justify-content: center;
     text-align: center;
     margin: 0 20px;
@@ -151,7 +151,7 @@ h3{
 }
 
 label{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -178,7 +178,7 @@ label{
 
 /*Estilização Economizando seu bolso*/
 #paragrafo-economia{
-    background-color: rgba(255, 217, 0, 0.728);
+    background-color: rgba(8, 151, 8, 0.719);;
     color: #fff;
     margin: 0 20px;
     border-radius: 12px;

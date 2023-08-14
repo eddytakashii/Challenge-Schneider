@@ -12,7 +12,7 @@ h1{
     font-family: 'Raleway', sans-serif;
     color: green;
     font-size: 45px;
-
+    font-weight: 900;
 }
 
 .paragrafo{
@@ -67,3 +67,8 @@ header{
 }
 
 /*Estilização Menu*/
+
+img{
+    width: 30%;
+    height: 50%;
+}

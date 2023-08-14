@@ -1,3 +1,10 @@
+#container-principal{
+    background-image: url(../img/main\ background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
 h1{
     padding: 20px;
     margin: 30px;
@@ -6,7 +13,7 @@ h1{
     font-family: 'Raleway', sans-serif;
     color: green;
     font-size: 45px;
-
+    font-weight: 900;
 }
 
 /*Estilização Menu*/
@@ -52,3 +59,27 @@ header{
 }
 
 /*Estilização Menu*/
+
+/*Estilização Cards*/
+.card{
+    background-color: rgb(15, 180, 51);
+}
+
+.card-title{
+    font-family: 'Poppins';
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(2, 62, 2);
+    font-weight:800;
+    text-align: center;
+}
+
+.card-text{
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: gold;
+    font-weight:800;
+    text-align: center;
+}
+
+/*Estilização Cards*/
