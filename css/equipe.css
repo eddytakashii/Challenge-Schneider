@@ -59,9 +59,9 @@ header{
 
 /*Estilização Menu*/
 
-/*Estilização Cards*/
+/*Estilização Card Equipe*/
 .card{
-    background-color: rgb(15, 180, 51);
+    background-color: rgba(8, 151, 8, 0.719);
 }
 
 .card-title{
@@ -80,7 +80,27 @@ header{
     font-weight:800;
     text-align: center;
 }
-/*Estilização Cards*/
+/*Estilização Card Equipe*/
+
+/*Estilzação Card Texto*/
+.cardt{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(8, 151, 8, 0.719);
+    margin: 20px;
+    border-radius: 16px;
+}
+
+
+.cardt ul {
+    text-align: center;
+    justify-content: center;
+    color: gold;
+    margin: 25px;
+    font-weight: 500;
+}
+/*Estilzação Card Texto*/
 
 /*Barra horizontal*/
 .barra-horizontal{
@@ -92,10 +112,11 @@ header{
 
 .barra-horizontal p{
     font-size: 20px;
-    color:#fff;
+    color:gold;
     font-family: 'Poppins';
     justify-content: center;
     text-align: center;
     margin-top: 10px;
+    font-weight: 500;
 }
 /*Barra horizontal*/

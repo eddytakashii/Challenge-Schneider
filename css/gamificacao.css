@@ -152,7 +152,7 @@ h3{
 
 label{
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 #valor{
@@ -211,10 +211,11 @@ label{
 
 .barra-horizontal p{
     font-size: 20px;
-    color:#fff;
+    color:gold;
     font-family: 'Poppins';
     justify-content: center;
     text-align: center;
     margin-top: 10px;
+    font-weight: 500;
 }
 /*Barra horizontal*/

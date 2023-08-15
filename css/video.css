@@ -1,34 +1,14 @@
 #container-principal{
     background-image: url(../img/main\ background-image.jpg);
     background-size: cover;
-    background-repeat: no-repeat; 
-}
-
-h1{
-    padding: 20px;
-    margin: 30px;
-    text-align: center;
-    justify-content: center;
-    font-family: 'Raleway', sans-serif;
-    color: green;
-    font-size: 45px;
-    font-weight: 900;
-}
-
-.paragrafo{
-    background-color: rgba(8, 151, 8, 0.719);
-    font-size: 18px;
-    font-family: 'Poppins';
-    color: #fff;
-    justify-content: center;
-    text-align: center;
-    margin:20px;
-    border-radius: 16px;
+    background-repeat: no-repeat;
 }
 
 /*Estilização Menu*/
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -68,6 +48,49 @@ header{
 
 /*Estilização Menu*/
 
+h1{
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: green;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+/*Card Video*/
+
+.card{
+    background-color:rgba(8, 151, 8, 0.719);
+    margin: 30px;
+    border-radius: 16px;
+}
+
+.card-title{
+    font-size: 40px;
+    color: gold;
+    font-weight: 800;
+    font-family: 'Poppins';
+    text-align: center;
+    justify-content: center;
+}
+
+.card-text{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Poppins';
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.button{
+    margin-top: 50px;
+}
+/*Card Video*/
 
 /*Barra horizontal*/
 .barra-horizontal{
@@ -84,7 +107,5 @@ header{
     justify-content: center;
     text-align: center;
     margin-top: 10px;
-    font-weight: 500;
 }
-
 /*Barra horizontal*/

@@ -53,11 +53,11 @@ function custoMensal(){
   resultado.innerHTML = custo
 
   if (custo >0 && custo <220){
-    resultado.innerHTML = `O valor que gasta por ano é ${custoAnual} reais.Parabéns, vc está mantendo sua economia em ordem.`
+    resultado.innerHTML = `O valor que gasta por ano é ${custoAnual} reais.Parabéns, você está mantendo sua economia em ordem.`
   } else if (custo >=220 && custo <=450){
-    resultado.innerHTML = `O valor que vc gasta por ano é ${custoAnual} reais. Tomando algumas medidas preventivas, você pode chegar a um gasto de até ${economia} reais, que equivale a uma economia de até ${porcentagem} reais todo ano!`
+    resultado.innerHTML = `O valor que você gasta por ano é ${custoAnual} reais. Tomando algumas medidas preventivas, você pode chegar a um gasto de até ${economia} reais, que equivale a uma economia de até ${porcentagem} reais todo ano!`
   } else{
-    resultado.innerHTML = `O valor que vc gasta por ano é ${custoAnual} reais. Você está gastando muito. Se tomar medidas mais preventivas, você pode estar salvando até ${porcentagem} reais todo ano! Imagine daqui a 10 anos, você estaria salvando cerca de ${dezanos} reais! `
+    resultado.innerHTML = `O valor que você gasta por ano é ${custoAnual} reais. Você está gastando muito. Se tomar medidas mais preventivas, você pode estar salvando até ${porcentagem} reais todo ano! Imagine daqui a 10 anos, você estaria salvando cerca de ${dezanos} reais! `
   }
 }
 /*Gamificação Economia para o seu bolso conta de Luz*/
