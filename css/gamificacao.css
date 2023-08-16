@@ -1,0 +1,221 @@
+#container-principal{
+    background-image: url(../img/main\ background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: green;
+    font-size: 45px;
+    font-weight: 900;
+}
+/*Estilização Menu*/
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgb(15, 180, 51);
+    box-shadow: 0px 3px 10px rgb(25, 186, 189);
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 6rem;
+}
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+/*Estilização Menu*/
+
+/*Estilização Banho*/
+
+.paragrafo-banho{
+    background-color:rgba(8, 151, 8, 0.719);
+    justify-content: center;
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#banho{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: hsl(241, 89%, 33%);
+    font-size: 20px;
+    color:#fff;
+    font-weight: 600;
+    margin: auto;
+    padding: 11px;
+    margin-top: 50px;
+}
+
+#container-principal{
+    background-color: rgba(8, 151, 8, 0.719);
+}
+
+.container{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.p1{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+ul li{
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-chuveiro{
+    height: 30%;
+    width: 30%;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+/*Estilização Banho*/
+
+/*Estilização Luz*/
+h3{
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(11, 148, 155);
+    font-size: 35px; 
+}
+
+#container-luz{
+    background-color: rgba(67, 65, 65, 0.792);
+    margin: 0 20px;
+    padding: 35px;
+    height: 250px;
+    color: white;
+    text-align: center;
+    justify-content: center; 
+    border: solid 2px green;
+    border-radius: 16px;
+    font-size: 18px;
+}
+
+.paragrafo-luz{
+    background-color: rgba(8, 151, 8, 0.719);
+    text-align:center;
+    justify-content: center;
+    margin: 0 20px;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 18px;
+}
+
+label{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#valor{
+    margin-top: 20px;
+    margin-bottom: 8px;
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+#calcular{
+    height: 50px;
+    width: 130px;
+}
+
+.foto-luz{
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 70%;
+}
+/*Estilização Luz*/
+
+/*Estilização Economizando seu bolso*/
+#paragrafo-economia{
+    background-color: rgba(8, 151, 8, 0.719);;
+    color: #fff;
+    margin: 0 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+}
+
+#custo{
+    margin-top: 20px;
+    margin-bottom: 8px;
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+#botao{
+    height: 50px;
+    width: 130px;
+}
+/*Estilização Economizando seu bolso*/
+
+/*Barra horizontal*/
+.barra-horizontal{
+    background-color:rgba(8, 151, 8, 0.719);
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.barra-horizontal p{
+    font-size: 20px;
+    color:gold;
+    font-family: 'Poppins';
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+}
+/*Barra horizontal*/
