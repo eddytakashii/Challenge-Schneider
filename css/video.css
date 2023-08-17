@@ -1,5 +1,5 @@
 #container-principal{
-    background-image: url(../img/main\ background-image.jpg);
+    background-image: url(../img/canvas.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -53,8 +53,8 @@ h1{
     margin: 30px;
     text-align: center;
     justify-content: center;
-    font-family: 'Raleway', sans-serif;
-    color: green;
+    font-family: 'Lucidatypewriter', sans-serif;
+    color: #ffeb00;
     font-size: 45px;
     font-weight: 900;
 }
