@@ -58,6 +58,42 @@ header{
 
 /*Estilização Menu*/
 
+
+
+
+.flex-container_banho {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .flex-container_banho .box1 {
+    width: 50%;
+    margin: 30px;
+    text-align: justify;
+  }
+
+  .flex-container_meio {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .flex-container_meio .box2 {
+    width: 50%;
+    margin: 30px;
+    text-align: justify;
+  }
+
+  .div1 {
+    width: 80%;
+    height: 100px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 40px;
+  }
+
+
+
+
 /*Estilização Banho*/
 
 .paragrafo-banho{
@@ -68,6 +104,7 @@ header{
     border-radius: 16px;
     color: #fff;
     font-size: 18px;
+    padding-bottom:0px;
 }
 
 #banho{
@@ -211,7 +248,7 @@ label{
 
 .barra-horizontal p{
     font-size: 20px;
-    color:gold;
+    color:rgb(0, 0, 0);
     font-family: 'Poppins';
     justify-content: center;
     text-align: center;
