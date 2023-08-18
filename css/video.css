@@ -109,3 +109,34 @@ h1{
     margin-top: 10px;
 }
 /*Barra horizontal*/
+
+
+/*Animação título*/
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #f8e008 0%,
+    #c1cc29 29%,
+    #c3cfc1 67%,
+    #f8e008 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 10s linear infinite;
+  border-radius: 500px;
+  display: inline-block;
+      font-size: 45px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
