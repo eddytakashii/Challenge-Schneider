@@ -1,19 +1,42 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 #container-principal{
     background-image: url(../img/canvas.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+#Contato{
+    font-family: 'Poppins', sans-serif;
+}
 h1{
     padding: 20px;
     margin: 30px;
     text-align: center;
     justify-content: center;
-    font-family: 'Lucidatypewriter', sans-serif;
+    font-family: 'Lucidatypewriter';
     color: #ffeb00;
     font-size: 45px;
     font-weight: 900;
 }
+
+
+
+.div1 {
+    width: 80%;
+    height: 100px;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 40px;
+  }
+
+
+
+
 
 h2{
     text-align: center;
@@ -71,7 +94,7 @@ p{
 }
 
 label{
-color: gold;
+color: rgb(0, 0, 0);
 font-weight: 600;
 }
 
@@ -87,11 +110,7 @@ font-weight: 600;
  }
 
 /*Estilização Menu*/
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-}
+
 
 
 header{
