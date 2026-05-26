@@ -17,4 +17,4 @@ Meu papel
 Fui responsavel por toda criação back e front do projeto.
 
 Link de acesso
-file:///c%3A/Users/User/OneDrive/Documentos/Projetos/Challenge-Schneider-QA2/Challenge-Schneider-QA2/html/video.html
+https://www.youtube.com/watch?v=KFph34EXhBU
